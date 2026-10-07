@@ -15,7 +15,7 @@ body {
     background-position: center; ;
 
     
-    /*background-size: 2200px; */ 
+    
     background-size: 2000px 1250px;
 
     display: flex;
@@ -41,11 +41,27 @@ body {
     color: white;
 
     text-align: center;
+    
 }
 
-.login h1{
+.login input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
 
-    color:rgb(204, 23, 23)
+    background: rgba(255, 255, 255, 0.15);
+
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+
+    color: white;
+    font-size: 16px;
+}
+
+.login .tab{
+
+    color:rgb(129, 131, 240);
+    margin-bottom: 15px;
 }
 
 .login button{
@@ -53,5 +69,39 @@ body {
     background-color: rgb(255, 255, 255);
     border-radius: 50px;
     width: 100px;
+    margin-bottom: 15px;
+
+
 }
 
+.login button:hover{
+
+    color:#5a7ee2;
+  text-decoration:underline;
+
+}
+
+.esquece_senha a{
+
+    color:rgb(129, 131, 240);
+  text-decoration: none;
+  
+
+    
+}
+.esquece_senha a:hover {
+  color:#5a7ee2;
+  text-decoration:underline;
+}
+.signup a{
+
+color:rgb(129, 131, 240);
+  text-decoration: none;
+    
+}
+
+.signup a:hover{
+color:#5a7ee2;
+  text-decoration:underline;
+
+}
